@@ -1,6 +1,6 @@
-# 🧠 ML Basics
+# 🧠 ML Labs
 
-Welcome to **ML Basics**, a hands-on repository where I document and keep track of my learning process in **Machine Learning (ML)**, **Deep Learning (DL)**, and **Natural Language Processing (NLP)**. This repo includes all the practical exercises, code notebooks, and projects tackled throughout my learning journey.
+Welcome to **ML Labs**, a hands-on repository where I document and keep track of my learning process in **Machine Learning (ML)**, **Deep Learning (DL)**, and **Natural Language Processing (NLP)**. This repo includes all the practical exercises, code notebooks, and projects tackled throughout my learning journey.
 
 ## 📚 What This Repo Covers
 
@@ -22,8 +22,8 @@ Welcome to **ML Basics**, a hands-on repository where I document and keep track 
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/greatdaveo/ML-Basics.git
-cd ML-Basics
+git clone https://github.com/greatdaveo/ML-Labs.git
+cd ML-Labs
 ```
 
 ### 2. Set up a virtual environment
