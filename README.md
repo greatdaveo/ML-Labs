@@ -1,85 +1,44 @@
-# 🧠 ML Labs
+# ML Labs
 
-Welcome to **ML Labs**, a hands-on repository where I document and keep track of my learning process in **Machine Learning (ML)**, **Deep Learning (DL)**, and **Natural Language Processing (NLP)**. This repo includes all the practical exercises, code notebooks, and projects tackled throughout my learning journey.
+This is where I keep the notebooks and exercises I work through while learning data analysis, machine learning, and NLP. Most of the examples use datasets in the repo and Python libraries like pandas, NumPy, and scikit-learn.
 
-## 📚 What This Repo Covers
+## What's here
 
-- 📌 Foundational ML concepts (Supervised, Unsupervised Learning, etc.)
-- 📊 Data Preprocessing and Feature Engineering
-- 🤖 Model Training and Evaluation (Scikit-Learn, StatsModels)
-- 🧮 Mathematical foundations (Linear Algebra, Probability, Calculus)
-- 🧠 Deep Learning with TensorFlow and PyTorch
-- 🗣️ Natural Language Processing (Text Classification, Tokenization, Embeddings)
-- 🧪 Real-world projects (Healthcare, Finance, E-Commerce)
-- 🧰 Tools: Jupyter, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow, PyTorch
+- `DA-Basics/` has notebooks on NumPy, pandas, reading data, and plotting.
+- `EDA/` contains a few exploratory data analysis notebooks, including examples with flight prices, Google Play Store data, and wine quality.
+- `LinearRegression/`, `LogisticRegression/`, `KNearestNeighbour/`, `DecisionTree/`, `RandomForest/`, and `NaiveBayesTheorem/` cover different machine learning algorithms.
+- `feature-engineering/` has examples of cleaning data, encoding categories, and handling imbalanced datasets.
+- `NLP/` covers text preprocessing and techniques like bag-of-words, TF-IDF, and Word2Vec.
+- `database/` and `logger/` contain some SQLite and Python logging exercises.
 
-> This repo is a practical journey through both theory and real-world implementation.
+These are learning materials, so the notebooks are meant to be opened and run individually rather than as one application. Some use relative paths to data files, so it's best to start Jupyter from the repository root. A few notebooks may also need extra packages beyond the main requirements.
 
----
+## Getting started
 
-## 🚀 Getting Started
-
-### 1. Clone the repo
+Clone the repo and create a virtual environment:
 
 ```bash
 git clone https://github.com/greatdaveo/ML-Labs.git
 cd ML-Labs
-```
-
-### 2. Set up a virtual environment
-
-Using **Conda**:
-
-```bash
-conda create -p venv python=3.10
-conda activate venv/
-```
-
-Or using **virtualenv**:
-
-```bash
 python3 -m venv .venv
-source .venv/bin/activate  # For macOS/Linux
-.venv\Scripts\activate     # For Windows
+source .venv/bin/activate
 ```
 
-### 3. Install dependencies
+On Windows, activate the environment with:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+Install the main dependencies:
 
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
----
+If JupyterLab isn't already installed in your environment, install it and start it from the repository folder:
 
-
-## 🏆 Goals
-
-- To build a strong theoretical and practical understanding of ML/DL/NLP
-- Create a solid portfolio of ML projects
-- Develop end-to-end ML pipelines with real-world data
-
----
-
-## 📜 License
-
-This project is for educational purposes. Notebooks and scripts are adapted for personal learning and practice.
-
----
-
-## 🙋‍♂️ About Me
-
-Hi, I'm **David Olowomeye** — a passionate software developer learning and applying AI/ML techniques to real-world problems.
-
-Feel free to connect:
-
-- [LinkedIn](https://www.linkedin.com/in/greatdaveo/)
-- [GitHub](https://github.com/greatdaveo)
-
----
-
-## 🌱 Future Additions
-
-- MLOps pipelines (MLflow, model versioning, deployment)
-- Streamlit dashboards
-- TensorBoard visualization
-- More real-world datasets and Kaggle challenges
+```bash
+python -m pip install jupyterlab
+jupyter lab
+```
